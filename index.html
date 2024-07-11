@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar"> <!--navbar-->
+            <i class="fa-solid fa-laptop-code" id="nav-logo"></i>
+            <ul id="nav-list">
+                <li class="nav-item active">
+                    <a href="#home">Inicio</a>
+
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Sobre</a>
+
+                </li>
+                <li class="nav-item">
+                    <a href="#txt-avalia">Avaliações</a>
+
+                </li>
+            </ul>
+            <button class="btn-default">
+                Veja aqui
+            </button>
+
+            <button id="mobile-btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav> <!--navbar-->
+
+        <div id="mobile-menu"> <!--mobile-menu-->
+            <ul id="mobile-nav-list">
+                <li class="nav-item">
+                    <a href="#home">Inicio</a>
+
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Sobre</a>
+
+                </li>
+                <li class="nav-item">
+                    <a href="#txt-avalia">Avaliações</a>
+
+                </li>
+            </ul> <!--mobile-menu-->
+
+            <button class="btn-default">
+                Veja aqui
+            </button>
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title"> O que você precisa saber para ser um bom Desenvolvedor <span>Front-End</span></h1>
+                <p class="description">
+                    Conectar o Front-End com a vida em geral e com as outra partes técnicas.
+                </p>
+            
+                <div id="cta-buttons">
+                     <a href="#" class="btn-default" style="text-decoration: none;">Quero saber mais</a>
+                     <a href="#" id="phone-button">
+                        <button class="btn-default">
+                            Entrar em contato
+                        </button>
+                     </a>
+                </div>
+                <div class="rede-social">
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+            <div id="banner">
+                <img src="imagem/desenvolvimento-web-engenharia-de-programador-e-site-de-codificacao-em-telas-de-interface-de-realidade-aumentada-desenvolvedor-de-projeto-engenheiro-de-programacao-de-software-ou-.png" alt="" >
+            </div>
+        </section>
+        <section id="menu">
+            <h2 class="section-title">O que há de novo?</h2>
+            
+            <h3 class="section-subtitle">Web Developer</h3>
+        
+            <div class="intro">
+                <div class="card">
+                    <div class=" face front">
+                        <img src="imagem/895.jpg" alt="">
+                        <h3>Front-End</h3>
+                    </div>
+                    <div class=" face back">
+                        <h3>Front-End</h3>
+                        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis eveniet cumque nemo optio illum velit deleniti cum totam voluptate in! Ipsam fugit quis officiis quidem ut natus sint ex molestias.</p>
+                        <div class="link">
+                            <a href="#">detalhe</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class=" face front">
+                        <img src="imagem/2248500.jpg" alt="">
+                        <h3>Back-End</h3>
+                    </div>
+                    <div class=" face back">
+                        <h3>Back-End</h3>
+                        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis eveniet cumque nemo optio illum velit deleniti cum totam voluptate in! Ipsam fugit quis officiis quidem ut natus sint ex molestias.</p>
+                        <div class="link">
+                            <a href="#">detalhe</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class=" face front">
+                        <img src="imagem/blog-front-back-full-stack.jpg" alt="">
+                        <h3>Full-stack</h3>
+                    </div>
+                    <div class=" face back">
+                        <h3>Full-stack</h3>
+                        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis eveniet cumque nemo optio illum velit deleniti cum totam voluptate in! Ipsam fugit quis officiis quidem ut natus sint ex molestias.</p>
+                        <div class="link">
+                            <a href="#">detalhe</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class=" face front">
+                        <img src="imagem/2022-05-12-Como-ser-um-desenvolvedor-Front-End-de-sucesso.jpg" alt="">
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class=" face back">
+                        <h3>JavaScript</h3>
+                        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis eveniet cumque nemo optio illum velit deleniti cum totam voluptate in! Ipsam fugit quis officiis quidem ut natus sint ex molestias.</p>
+                        <div class="link">
+                            <a href="#">detalhe</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="javascript/script.js"></script>
+</body>
+</html>
