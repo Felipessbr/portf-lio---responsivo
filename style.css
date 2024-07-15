@@ -23,7 +23,7 @@ header{
     top: 0px;
     background-color: #D8E8F2;
     z-index: 1;
-    border-radius: 0 0 10px 10px;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.136);
   }
 
 #navbar{
@@ -120,8 +120,7 @@ header{
     }
     #mobile-menu button{
         text-align: center;
-    }
-    
+    }    
 }
 
 /*HOME-SHPE */
@@ -235,7 +234,6 @@ header{
     align-items: center;
     justify-content: center;
     justify-content: space-evenly;
-    margin: auto;
 }
 
 .card{
@@ -307,14 +305,7 @@ header{
         margin-top: 30px;
         letter-spacing: 1px;
     }
-
-    .section-title{
-        display: flex;
-        color: #8C306C;
-        font-size: 3rem;
-        margin: auto;
-    }
-
+    
     .section-subtitle{
         color: #0b246c;
         font-size: 2rem;
@@ -322,6 +313,7 @@ header{
         background: rgba(0, 0, 0, 0);
         border-radius: 5px;
         padding: 5px;
+        margin-bottom: 50px;
     }
     .back p{
         text-align: justify;
@@ -344,4 +336,4 @@ header{
         }
        
     }
-   
+ 
